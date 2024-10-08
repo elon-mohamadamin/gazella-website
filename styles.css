@@ -1,0 +1,279 @@
+body {
+    background-color:rgb(71, 71, 70);
+    color:rgb(201, 201, 201);
+    font-family: apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size:20px;
+    margin:0;
+    padding:0;
+    background-image: url(gazellaBackground.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    
+    
+}
+header {
+    background-color:rgb(70, 70, 70);
+    background: linear-gradient(#c2bfbf, #353535), rgba(0,0,0,0.2);
+    opacity: 0.9;
+    color:rgb(255, 255, 255);
+    padding-top:20px;
+    padding-bottom:30px;
+    padding-left:10px;
+    position:relative;
+    transition:0.285s;
+    
+    
+}
+
+header:hover {
+    opacity:1;
+}
+header .Logo a {
+    background-image: url(gazellaLogo.png);
+    background-size:50px;
+    background-repeat: no-repeat;
+    display:inline-block;
+    
+    position:absolute; 
+	top:0; 
+	left:30px; 
+    width:50px;
+    height:50px;
+    text-indent: -99999999px;
+    top:7px;
+    opacity:1;
+    
+
+}
+
+section {
+    
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:30px;
+    margin:3px 0px 4px 0px;
+    display:flex;
+    flex-direction: column;
+
+
+}
+.middle div {
+    position:relative;
+    margin:auto;
+    width:100px;
+    padding:100px;
+    background: rgb(65, 65, 65) 20%;
+    margin-top: 100px;
+    border:4px solid;
+    border-radius:20px;
+    border-color:rgba(255, 255, 255, 0.678);
+    
+    transition:0.15s ease;
+}
+.middle div:hover {
+    background: rgb(65, 65, 65) 20%;
+    padding:120px;
+    
+    font-weight: bolder;
+    border-style:solid;
+    border-color: rgb(211, 206, 206);
+    
+}
+.middle .service1 {
+    margin-left:10px;
+    
+}
+.middle .service2 {
+    margin-right:20px;
+}
+.middle .service3 {
+    margin-left:10px;
+}
+footer {
+    
+    color:rgb(255, 255, 255);
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+}
+
+h1 {
+    position:relative;
+    text-decoration:none;
+
+    color:rgb(219, 219, 219);
+    transition:0.35s;
+}
+
+h1:hover {
+    
+    color:sandybrown;
+    
+}  
+
+ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+   
+    text-align:center;
+    
+}
+li {
+    
+    display:inline-block;
+    margin-right:20px;
+    
+}
+a {
+    opacity:1;
+    text-decoration:none;
+    color:white;
+    transition:color 0.35s;
+}
+a:hover {
+    font-weight:bolder;
+    color:sandybrown;
+  
+    
+    
+}
+
+.higher {
+    display:block;
+}
+h2 {
+    position:absolute;
+    transition:0.35s;
+}
+h2:hover {
+    font-weight:bolder;
+    color:sandybrown;
+}
+
+/*
+.threeline-menu div{
+    height:3px;
+    background-color:white;
+    margin:4px 0;
+    border-radius:25px;
+    transition:0.3s;
+
+}
+.threeline-menu {
+    width:30px;
+    display:block;
+    margin:1em 0 0 90%;
+    
+}
+*/
+/*
+.one {
+    width:30px;
+}
+.two {
+    width:20px;
+
+}
+.three {
+    width:10px;
+}
+
+.threeline-menu:hover div {
+    width:30px;
+}
+.service1 h1 {
+    position:relative;
+    
+
+}
+    */
+
+.service1 p{
+    position:absolute;
+    color:rgb(255, 255, 255);
+    top:0;
+    left:15px;
+    
+    
+}
+/*
+.middle .service1 {
+    background:rgb(55, 126, 55);
+}
+*/
+
+
+
+
+
+.container {
+
+    background:rgb(65,65,65);
+    width: 300px;
+    border: 4px solid white;
+    border-radius:25px;
+    padding: 100px;
+    max-width:fit-content;
+    margin: auto;
+    position:relative;
+    width:100%;
+    
+    
+}
+label {
+    font-weight:bold;
+    transition:0.15s ease;
+}
+/*
+label:hover {
+    
+}
+*/
+input {
+    border-radius:5.7px;
+}
+
+.sub-container {
+   margin-left:70px;
+   margin-bottom:20px;
+    
+}
+#additionalInfo {
+    width:250px;
+    height:30px;
+}
+
+.button {
+    background:white;
+    border:1px solid white;
+    border-radius:5px;
+    
+    font-size: 16px;
+    width:120px;
+    transition:0.2s ease;
+}
+.button:hover {
+    background:black;
+    color:white;
+    font-weight:bold;
+}
+.lowerform {
+    position:relative;
+    background:black;
+    margin-bottom:0px;
+    padding-bottom:200px;
+}
+.lowerform p {
+    margin-top:120px;
+    margin-bottom:-110px;
+}
+.lower {
+    position:relative;
+    background:black;
+    margin-bottom:0px;
+    padding-bottom:200px;
+}
