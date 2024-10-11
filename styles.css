@@ -104,7 +104,8 @@ h1 {
     position:relative;
     text-decoration:none;
     font-size:38px;
-    color:rgb(255 226 218/var(--tw-text-opacity));
+    color:white;
+    /*rgb(255 226 218/var(--tw-text-opacity))*/
     transition:0.35s;
 }
 
@@ -274,4 +275,9 @@ input {
     background:black;
     margin-bottom:0px;
     padding-bottom:200px;
+}
+
+.subtitle {
+    position:absolute;
+    
 }
