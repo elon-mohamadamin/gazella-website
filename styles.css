@@ -2,7 +2,7 @@ body {
     background-color:rgb(71, 71, 70);
     color:rgb(201, 201, 201);
     font-family: apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica Neue,Arial,sans-serif;
-    font-size:20px;
+    font-size:22px;
     margin:0;
     padding:0;
     background-image: url(gazellaBackground.png);
@@ -16,7 +16,7 @@ body {
 }
 header {
     background-color:rgb(70, 70, 70);
-    background: linear-gradient(#c2bfbf, #353535), rgba(0,0,0,0.2);
+    background: linear-gradient(#000000,#2c2c2c ), rgba(0,0,0,0.2);
     opacity: 0.9;
     color:rgb(255, 255, 255);
     padding-top:20px;
@@ -103,14 +103,14 @@ footer {
 h1 {
     position:relative;
     text-decoration:none;
-
-    color:rgb(219, 219, 219);
+    font-size:38px;
+    color:rgb(255 226 218/var(--tw-text-opacity));
     transition:0.35s;
 }
 
 h1:hover {
     
-    color:sandybrown;
+    color: pink;
     
 }  
 
@@ -132,11 +132,12 @@ a {
     opacity:1;
     text-decoration:none;
     color:white;
+    font-weight: bold;
     transition:color 0.35s;
 }
 a:hover {
-    font-weight:bolder;
-    color:sandybrown;
+    
+    color: pink;
   
     
     
@@ -151,7 +152,7 @@ h2 {
 }
 h2:hover {
     font-weight:bolder;
-    color:sandybrown;
+    color:pink;
 }
 
 /*
@@ -242,10 +243,7 @@ input {
    margin-bottom:20px;
     
 }
-#additionalInfo {
-    width:250px;
-    height:30px;
-}
+
 
 .button {
     background:white;
