@@ -82,7 +82,7 @@ section {
 }
 .middle div:hover .services{
     background: rgb(65, 65, 65) 20%;
-    padding:130px;
+    padding:125px;
     
     border-style:solid;
     border-color: rgb(211, 206, 206);
@@ -151,8 +151,8 @@ a {
     transition: 0.35s ease-in-out;
 }
 a:hover {
-    letter-spacing: 0.3em;
-    color: rgb(185, 172, 143);
+    letter-spacing: 0.1em;
+    color: rgb(255, 255, 255);
     filter:brightness(150%);
     
     
@@ -323,7 +323,7 @@ div p {
    
 
 }
-
+/*
 .slider {
    overflow:scroll;
    
@@ -341,58 +341,22 @@ div p {
 }
 
 
-*/
+
 
 .slider figure{
     position:relative;
     width:500%;
     margin:0;
     left:0;
-    animation: 20s slidy infinite;
+    animation: 60s slidy linear forwards;
 
 }
+
+
+
 
 @keyframes slidy {
-    0%{
-        left:0%;
-
-    }
-    2%{
-        left:-2%;
-    }
-    4%{
-        left:-4%;
-    }
-    6%{
-        left:-6%;
-    }
-    10%{
-        left:0%;
-    }
-    12%{
-        left:-10%;
-    }
-    22%{
-        left:-10%;
-    }
-    24%{
-        left:-20%;
-    }
-    26%{
-        left:-20%;
-    }
-    28%{
-        left:-30%;
-    }
-    30%{
-        left:-30%;
-    }
-    32%{
-        left:-40%;
-    }
-    34%{
-        left:-40%;
-    }
-
-
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
 }
+*/
