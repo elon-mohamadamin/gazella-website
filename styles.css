@@ -64,12 +64,19 @@ section {
 
 
 }
+/*
+.middle div .services{
+    
+}
+*/
+
+/*
 .middle div .services{
     position:relative;
     margin:auto;
     width:100px;
     padding:120px;
-    background: rgb(65, 65, 65) 20%;
+    background: rgb(0, 0, 0) 20%;
     margin-top: 100px;
     margin-left:10px;
     border:2px solid;
@@ -80,15 +87,37 @@ section {
     
     transition:0.15s ease;
 }
-.middle div:hover .services{
-    background: rgb(65, 65, 65) 20%;
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+.middle div:hover{
+    margin:auto;
     padding:125px;
-    
+}
+*/
+
+/*
+.middle div:hover .services{
+    background: rgb(24, 24, 24) 20%;
+    padding:125px;
+    color:rgb(255, 253, 253);
     border-style:solid;
     border-color: rgb(211, 206, 206);
   
 
 }
+*/
 
 /*
 .middle .service1 {
@@ -103,12 +132,28 @@ section {
 }
 */
 footer {
-    
+    position:sticky;
+    left:0;
+    bottom:0;
+    width:100%;
+    min-height: 100%;
+    background-color:black;
     color:rgb(255, 255, 255);
     padding-top:20px;
-    padding-bottom:20px;
+    
     padding-left:10px;
 }
+.lowerform {
+    position:relative;
+    background-color:black;
+    margin-bottom:0px;
+    padding-bottom:200px;
+}
+.lowerform p {
+    margin-top:120px;
+    margin-bottom:-110px;
+}
+
 
 h1 {
     position:relative;
@@ -213,27 +258,15 @@ h2:hover {
 }
     */
 
-.service1 p{
-    position:absolute;
-    color:rgb(255, 255, 255);
-    top:0;
-    left:15px;
-    
-    
-}
-/*
-.middle .service1 {
-    background:rgb(55, 126, 55);
-}
-*/
+
 
 
 
 
 
 .container {
-
-    background:rgb(65,65,65);
+    
+    background:rgb(0, 0, 0);
     width: 300px;
     border: 4px solid white;
     border-radius:25px;
@@ -242,6 +275,7 @@ h2:hover {
     margin: auto;
     position:relative;
     width:100%;
+    color:rgb(216, 216, 216);
     
     
 }
@@ -255,7 +289,8 @@ label:hover {
 }
 */
 input {
-    border-radius:5.7px;
+    border:none;
+    border-radius:2px;
 }
 
 .sub-container {
@@ -281,22 +316,7 @@ input {
 
     border:1px solid rgb(255, 255, 255);
 }
-.lowerform {
-    position:relative;
-    background:black;
-    margin-bottom:0px;
-    padding-bottom:200px;
-}
-.lowerform p {
-    margin-top:120px;
-    margin-bottom:-110px;
-}
-.lower {
-    position:relative;
-    background:black;
-    margin-bottom:0px;
-    padding-bottom:200px;
-}
+
 
 .subtitle {
     position:fixed;
@@ -305,8 +325,8 @@ input {
 
 
 ::selection {
-    background: rgb(185, 172, 143);
-    color:rgb(37, 37, 37);
+    background: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 
 
@@ -356,3 +376,11 @@ div p {
     100% { transform: translateX(-100%); }
 }
 */
+
+.image-wrapper {
+    margin:auto;
+    text-align:center;
+    border:2px solid white;
+    
+}
+
