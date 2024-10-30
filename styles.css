@@ -16,7 +16,7 @@ body {
 }
 header {
     background-color:rgb(70, 70, 70);
-    background: linear-gradient(#000000,#2c2c2c ), rgba(0,0,0,0.2);
+    background: linear-gradient(#000000,#1d1d1dd5 ), rgba(0,0,0,0.2);
     opacity: 0.8;
     color:rgb(255, 255, 255);
     padding-top:20px;
