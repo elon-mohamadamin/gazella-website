@@ -1,4 +1,4 @@
-body {
+html, body {
     background-color:rgb(71, 71, 70);
     color:rgb(201, 201, 201);
     font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -6,7 +6,7 @@ body {
     margin:0;
     padding:0;
     background-image: url(gazellaBackground.png);
-    
+    min-height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -52,9 +52,17 @@ header .Logo a {
 header .Logo a:hover {
     filter: brightness(110%);
 }
+.wrapper1 {
+    min-height:100%;
+  
 
+}
+.wrapper0 {
+    padding:20px;
+    padding-bottom:50px;
+}
 section {
-    
+
     padding-top:20px;
     padding-bottom:20px;
     padding-left:30px;
@@ -63,6 +71,30 @@ section {
     flex-direction: row;
 
 
+}
+.footer {
+    position:absolute;
+    height:200px;
+    width:100%;
+    bottom:0;
+    margin-left:0px;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding-top:20px;
+    padding-left:10px;
+    padding-bottom:100px;
+}
+.footer-form {
+    position:sticky;
+    left:0;
+    bottom:0;
+    width:100%;
+    min-height: 100%;
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    padding-top:20px;
+    
+    padding-left:10px;
 }
 /*
 .middle div .services{
@@ -131,25 +163,19 @@ section {
     margin-left:10px;
 }
 */
-footer {
-    position:sticky;
-    left:0;
-    bottom:0;
-    width:100%;
-    min-height: 100%;
-    background-color:black;
-    color:rgb(255, 255, 255);
-    padding-top:20px;
-    
-    padding-left:10px;
-}
+
 .lowerform {
+    min-height:100%;
     position:relative;
     background-color:black;
-    margin-bottom:0px;
+    margin-bottom:-50px;
     padding-bottom:200px;
 }
 .lowerform p {
+    margin-top:120px;
+    margin-bottom:-110px;
+}
+.footer p {
     margin-top:120px;
     margin-bottom:-110px;
 }
